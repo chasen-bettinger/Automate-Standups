@@ -1,0 +1,23 @@
+{
+  "name": "n-harvest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@slack/webhook": "^5.0.3",
+    "cheerio": "^1.0.0-rc.3",
+    "dayjs": "^1.8.28",
+    "got": "^11.3.0",
+    "puppeteer": "^3.3.0"
+  }
+}
