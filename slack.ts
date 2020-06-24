@@ -7,7 +7,7 @@ export const slack = () => {
       try {
         await webhook.send({ text });
       } catch (e) {
-        this.log.error(`SLACK FAILED TO SEND`, { e });
+        console.error(`SLACK FAILED TO SEND`, { e });
         return false;
       }
     },
